@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Enumeration;
 
+@WebServlet("/add")
 public class AddUserServlet extends HttpServlet {
 
     Warehouse wh = Warehouse.getInstance();
